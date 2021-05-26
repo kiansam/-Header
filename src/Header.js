@@ -17,7 +17,7 @@ const Header = (props) => {
           <span>Contact us</span>
         </a>
       </NavMenu>
-      <Wrap>{/* Icons, Tags, ... */}</Wrap>
+      <Wrap>Hi</Wrap>
       <Login>Login</Login>
     </Container>
   );
