@@ -4,10 +4,12 @@ const Header = (props) => {
   return (
     <Container>
       <Logo>
-        <img src="/images/Tree.png" alt="" />
+        <a href="/">
+          <img src="/images/Tree.png" alt="" />
+        </a>
       </Logo>
       <NavMenu>
-        <a href="/home">
+        <a href="/">
           <span>Home</span>
         </a>
         <a href="/about">
@@ -45,11 +47,14 @@ const Logo = styled.a`
   /* display: inline-block; */
   align-items: center;
 
-  img {
-    /* display: flex; */
-    width: 90%;
-    border-radius: 50px;
-    /* align-items: center; */
+  a {
+    cursor: auto;
+    img {
+      /* display: flex; */
+      width: 90%;
+      border-radius: 50px;
+      /* align-items: center; */
+    }
   }
 `;
 
