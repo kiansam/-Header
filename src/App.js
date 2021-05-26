@@ -8,7 +8,8 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/"></Route>
+          <Route exact path="/">
+          </Route>
         </Switch>
       </Router>
     </div>
