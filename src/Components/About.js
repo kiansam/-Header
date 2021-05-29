@@ -3,7 +3,7 @@ import styled from "styled-components";
 const About = (props) => {
   return (
     <Container>
-      <h1>Kian</h1>
+      <h1>Me</h1>
     </Container>
   );
 };
