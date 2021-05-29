@@ -15,6 +15,10 @@ const Container = styled.div`
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
+  
+  h1 {
+  color: blue;
+  }
 `;
 
 export default About;
