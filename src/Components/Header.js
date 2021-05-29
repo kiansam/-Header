@@ -5,10 +5,12 @@ const Header = (props) => {
     <Container>
       <Logo>
         <a href="/">
+    //Image
           <img src="/images/Tree.png" alt="" />
         </a>
       </Logo>
       <NavMenu>
+    //Nav Menu
         <a href="/">
           <span>Home</span>
         </a>
@@ -20,10 +22,13 @@ const Header = (props) => {
         </a>
       </NavMenu>
       <Wrap>Hi</Wrap>
+    //Login Button
       <Login>Login</Login>
     </Container>
   );
 };
+
+//Styled-Components
 
 const Container = styled.div`
   position: fixed;
