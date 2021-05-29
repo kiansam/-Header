@@ -3,7 +3,7 @@ import styled from "styled-components";
 const About = (props) => {
   return (
     <Container>
-      <h1>Kian</h1>
+      <h1>Me</h1>
     </Container>
   );
 };
@@ -15,6 +15,10 @@ const Container = styled.div`
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
+  
+  h1 {
+  color: blue;
+  }
 `;
 
 export default About;
