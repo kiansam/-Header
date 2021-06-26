@@ -2,6 +2,7 @@
 Styled-Components
 Reactjs
 
+Navbar Ideas
 
 
 # Getting Started with Create React App
